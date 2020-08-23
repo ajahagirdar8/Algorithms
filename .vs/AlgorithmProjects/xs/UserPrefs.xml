@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{0B84B986-FD48-404D-BB84-48132AA2783A}|Default">
+  <MonoDevelop.Ide.ItemProperties.AlgorithmProjects FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlgorithmProjects/Program.cs">
+    <Files>
+      <File FileName="AlgorithmProjects/Program.cs" Line="3" Column="29" />
+      <File FileName="AlgorithmProjects/ArrayStack.cs" Line="2" Column="29" />
+      <File FileName="AlgorithmProjects/LinkedListStack.cs" Line="2" Column="29" />
+      <File FileName="AlgorithmProjects/LinkListNode.cs" Line="2" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AlgorithmProjects" expanded="True">
+            <Node name="AlgorithmProjects" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
