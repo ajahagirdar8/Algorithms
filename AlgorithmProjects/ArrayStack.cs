@@ -1,6 +1,9 @@
 ﻿using System;
-namespace Algorithms
+namespace AlgorithmsProjects
 {
+    /***
+     * Generic Stack class using array as data structure
+     ***/
     public class ArrayStack<T>
     {
         private T[] astack;

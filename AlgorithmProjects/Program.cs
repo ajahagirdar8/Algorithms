@@ -6,31 +6,42 @@ namespace AlgorithmsProjects
     {
         static void Main(string[] args)
         {
-            /*LinkedListStack<string> lls = new LinkedListStack<string>();
-            lls.push("A");
-            lls.push("B");
-            lls.push("C");
+            bool success;
+            do
+            {
+                Console.WriteLine("Choose the data structure/algorithm to test:");
+                Console.WriteLine("1. Stack using array");
+                Console.WriteLine("2. Stack using linked list");
+                string input = Console.ReadLine();
+                int inputno;
+                success = Int32.TryParse(input, out inputno);
+                if (success)
+                {
 
-            Console.WriteLine("popped "+lls.pop());
-            Console.WriteLine("popped "+lls.pop());
-            Console.WriteLine("popped "+lls.pop());
+                    switch(inputno)
+                    {
+                        case 1:
+                            ArrayStackClient asc = new ArrayStackClient();
+                            asc.TestClinet();
+                            break;
+                        case 2:
+                            LinkedListStackClient a = new LinkedListStackClient();
+                            a.TestClient();
+                            break;
+                        default:
+                            Console.WriteLine("Enter a valid choice");
+                            success = false;
+                            break;
 
-            LinkedListStack<int> lls1 = new LinkedListStack<int>();
-            lls1.push(3);
-            lls1.push(2);
-            lls1.push(1);
+                    }
+                    
+                }
+                else
+                    Console.WriteLine("Enter a valid choice");
+            } while (!success);
 
-            Console.WriteLine("popped " + lls1.pop());
-            Console.WriteLine("popped " + lls1.pop());
-            Console.WriteLine("popped " + lls1.pop());*/
 
-            ArrayStack<string> astk = new ArrayStack<string>(3);
-            astk.push("C");
-            astk.push("B");
-            astk.push("A");
-            Console.WriteLine("popped " + astk.pop());
-            Console.WriteLine("popped " + astk.pop());
-            Console.WriteLine("popped " + astk.pop());
+           
 
 
 

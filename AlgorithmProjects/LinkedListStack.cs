@@ -1,6 +1,10 @@
 ﻿using System;
-namespace Algorithms
+namespace AlgorithmsProjects
 {
+
+    /***
+     * Generic Stack class using linked list as data structure
+     ***/
     public class LinkedListStack<T>
     {
         private LinkListNode<T> firstnode;

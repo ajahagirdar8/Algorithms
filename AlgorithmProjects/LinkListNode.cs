@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Algorithms
+namespace AlgorithmsProjects
 {
     public class LinkListNode<T>
     {
